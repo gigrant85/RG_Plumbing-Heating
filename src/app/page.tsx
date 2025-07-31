@@ -74,6 +74,49 @@ const HomePage = () => (
       </div>
     </section>
 
+    {/* Professional Accreditations */}
+    <section className="py-16 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-slate-800">
+            <span className="text-gradient">Certified</span> & Accredited
+          </h2>
+          <p className="text-lg text-slate-600">Fully licensed professionals you can trust</p>
+        </div>
+        
+        <div className="flex justify-center items-center gap-8 sm:gap-16">
+          <div className="group">
+            <div className="bg-white p-6 rounded-2xl shadow-modern border border-slate-100 hover:shadow-modern-lg transition-all duration-300 group-hover:scale-105">
+              <img 
+                src="/gas-safe-logo.jpg" 
+                alt="Gas Safe Register - Certified Gas Engineer" 
+                className="h-16 sm:h-20 w-auto mx-auto"
+              />
+            </div>
+            <p className="text-center text-sm text-slate-600 mt-3 font-medium">Gas Safe Registered</p>
+          </div>
+          
+          <div className="group">
+            <div className="bg-white p-6 rounded-2xl shadow-modern border border-slate-100 hover:shadow-modern-lg transition-all duration-300 group-hover:scale-105">
+              <img 
+                src="/g1-grant-logo.jpg" 
+                alt="G1 Grant Accredited Installer - Heat Pump Specialists" 
+                className="h-16 sm:h-20 w-auto mx-auto"
+              />
+            </div>
+            <p className="text-center text-sm text-slate-600 mt-3 font-medium">G1 Grant Accredited</p>
+          </div>
+        </div>
+        
+        <div className="text-center mt-8">
+          <p className="text-slate-600 max-w-2xl mx-auto">
+            Our engineers are fully certified and continuously trained to the highest industry standards. 
+            All gas work is carried out by Gas Safe registered professionals.
+          </p>
+        </div>
+      </div>
+    </section>
+
     {/* Customer Testimonials */}
     <section className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4">

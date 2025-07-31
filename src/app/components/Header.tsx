@@ -49,6 +49,26 @@ const Header = () => (
           </nav>
           
           <div className="flex items-center space-x-4">
+            {/* Trust Badges */}
+            <div className="hidden xl:flex items-center space-x-3 mr-4">
+              <div className="flex items-center space-x-2 bg-white/5 px-3 py-2 rounded-lg border border-white/10">
+                <img 
+                  src="/gas-safe-logo.jpg" 
+                  alt="Gas Safe" 
+                  className="h-6 w-auto"
+                />
+                <span className="text-xs text-white/80 font-medium">Gas Safe</span>
+              </div>
+              <div className="flex items-center space-x-2 bg-white/5 px-3 py-2 rounded-lg border border-white/10">
+                <img 
+                  src="/g1-grant-logo.jpg" 
+                  alt="G1 Grant" 
+                  className="h-6 w-auto"
+                />
+                <span className="text-xs text-white/80 font-medium">G1 Accredited</span>
+              </div>
+            </div>
+            
             <a 
               href="tel:07907122798" 
               className="btn-modern gradient-modern-red text-white px-6 py-3 rounded-xl font-bold text-sm whitespace-nowrap shadow-modern-lg hover:shadow-red-500/25 group"
