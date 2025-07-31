@@ -7,10 +7,10 @@ const HomePage = () => (
         <p className="text-xl mb-8">Your trusted partner for plumbing, heating, and renewable energy solutions. We offer reliable, fast, and affordable services with 24/7 emergency availability.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
-            href="tel:123-456-7890" 
+            href="tel:07907122798" 
             className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition duration-300 inline-block"
           >
-            Emergency: (123) 456-7890
+            Emergency: 07907 122798
           </a>
           <a 
             href="/contact" 
@@ -71,12 +71,12 @@ const HomePage = () => (
       <div>
         <h2 className="text-2xl font-semibold mb-4 text-blue-700">Our Services Include:</h2>
         <ul className="space-y-2 text-gray-700">
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Emergency plumbing repairs</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Boiler installation & repair</li>
-          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Central heating systems</li>
-          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Heat pump installation</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Drain cleaning & unclogging</li>
-          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Solar thermal systems</li>
+          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Bathroom renovations</li>
+          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Hot water upgrades</li>
+          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Outside tap installations</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Air source heat pumps</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Natural gas services</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> LPG & Oil services</li>
         </ul>
         <a href="/services" className="inline-block mt-4 text-blue-600 hover:underline font-semibold">
           View All Services →
@@ -105,10 +105,10 @@ const HomePage = () => (
       <p className="text-lg mb-6">Don&apos;t let plumbing, heating, or energy problems ruin your day. Call RG now!</p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a 
-          href="tel:123-456-7890" 
+          href="tel:07907122798" 
           className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300 inline-block"
         >
-          Call Now: (123) 456-7890
+          Call Now: 07907 122798
         </a>
         <a 
           href="/contact" 

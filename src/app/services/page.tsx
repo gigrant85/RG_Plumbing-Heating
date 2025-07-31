@@ -8,120 +8,146 @@ const ServicesPage = () => (
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
-        <div className="text-blue-600 text-4xl mb-4">🔧</div>
-        <h3 className="text-xl font-semibold mb-3">Emergency Repairs</h3>
-        <p className="text-gray-700 mb-4">24/7 emergency service for burst pipes, major leaks, and urgent plumbing issues.</p>
+        <div className="text-blue-600 text-4xl mb-4">🛁</div>
+        <h3 className="text-xl font-semibold mb-3">Bathroom Renovations</h3>
+        <p className="text-gray-700 mb-4">Complete bathroom renovation services from design to installation.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Burst pipe repair</li>
-          <li>• Emergency leak fixes</li>
-          <li>• Sewer backups</li>
-          <li>• Water main issues</li>
+          <li>• Full bathroom design</li>
+          <li>• Suite installation</li>
+          <li>• Tiling and flooring</li>
+          <li>• Plumbing and electrics</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $150</div>
+        <div className="mt-4 text-blue-600 font-semibold">Contact for quote</div>
       </div>
 
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
-        <div className="text-blue-600 text-4xl mb-4">🚿</div>
-        <h3 className="text-xl font-semibold mb-3">Drain Cleaning</h3>
-        <p className="text-gray-700 mb-4">Professional drain cleaning services to keep your pipes flowing smoothly.</p>
+        <div className="text-blue-600 text-4xl mb-4">🔥</div>
+        <h3 className="text-xl font-semibold mb-3">Hot Water Upgrades</h3>
+        <p className="text-gray-700 mb-4">Upgrade your hot water system for improved efficiency and reliability.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Kitchen sink drains</li>
-          <li>• Bathroom drains</li>
-          <li>• Main sewer lines</li>
-          <li>• Hydro jetting</li>
+          <li>• Cylinder replacements</li>
+          <li>• Combi boiler upgrades</li>
+          <li>• Immersion heater installation</li>
+          <li>• System optimization</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $120</div>
+        <div className="mt-4 text-blue-600 font-semibold">Starting at £800</div>
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
-        <div className="text-red-600 text-4xl mb-4">🔥</div>
-        <h3 className="text-xl font-semibold mb-3">Boiler Installation & Repair</h3>
-        <p className="text-gray-700 mb-4">Expert installation, repair, and maintenance of all boiler types for reliable heating.</p>
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
+        <div className="text-blue-600 text-4xl mb-4">🔧</div>
+        <h3 className="text-xl font-semibold mb-3">Outside Tap Installations</h3>
+        <p className="text-gray-700 mb-4">Professional installation of outside taps for garden and external use.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Combi boilers</li>
-          <li>• System boilers</li>
-          <li>• Regular boilers</li>
-          <li>• Emergency repairs</li>
+          <li>• Garden tap installation</li>
+          <li>• Frost-proof taps</li>
+          <li>• Pipe work and connections</li>
+          <li>• Isolation valves</li>
         </ul>
-        <div className="mt-4 text-red-600 font-semibold">Starting at $2,500</div>
+        <div className="mt-4 text-blue-600 font-semibold">Starting at £150</div>
       </div>
 
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
         <div className="text-blue-600 text-4xl mb-4">🚽</div>
-        <h3 className="text-xl font-semibold mb-3">Fixture Installation</h3>
-        <p className="text-gray-700 mb-4">Professional installation and replacement of plumbing fixtures.</p>
+        <h3 className="text-xl font-semibold mb-3">WC Repairs</h3>
+        <p className="text-gray-700 mb-4">Professional toilet and WC repair services for all common issues.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Toilet installation</li>
-          <li>• Faucet replacement</li>
-          <li>• Shower/tub installation</li>
-          <li>• Garbage disposals</li>
+          <li>• Toilet repairs</li>
+          <li>• Cistern adjustments</li>
+          <li>• Seat replacements</li>
+          <li>• Flush mechanism fixes</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $180</div>
+        <div className="mt-4 text-blue-600 font-semibold">Starting at £80</div>
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
-        <div className="text-red-600 text-4xl mb-4">♨️</div>
-        <h3 className="text-xl font-semibold mb-3">Central Heating Systems</h3>
-        <p className="text-gray-700 mb-4">Complete central heating installation and maintenance for optimal home comfort.</p>
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
+        <div className="text-blue-600 text-4xl mb-4">🔧</div>
+        <h3 className="text-xl font-semibold mb-3">Tap Repair/Replacement</h3>
+        <p className="text-gray-700 mb-4">Professional tap repair and replacement services for kitchen and bathroom.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Radiator installation</li>
-          <li>• Underfloor heating</li>
-          <li>• Thermostatic controls</li>
-          <li>• System maintenance</li>
+          <li>• Kitchen tap repairs</li>
+          <li>• Bathroom tap installation</li>
+          <li>• Mixer tap replacement</li>
+          <li>• Washer replacements</li>
         </ul>
-        <div className="mt-4 text-red-600 font-semibold">Starting at $3,000</div>
-      </div>
-
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
-        <div className="text-red-600 text-4xl mb-4">🌡️</div>
-        <h3 className="text-xl font-semibold mb-3">Heat Pump Installation</h3>
-        <p className="text-gray-700 mb-4">Energy-efficient heat pump systems for year-round comfort and reduced energy bills.</p>
-        <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Air source heat pumps</li>
-          <li>• Ground source heat pumps</li>
-          <li>• Hybrid systems</li>
-          <li>• Maintenance & repairs</li>
-        </ul>
-        <div className="mt-4 text-red-600 font-semibold">Starting at $8,000</div>
-      </div>
-
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-yellow-500 transition duration-300 shadow-lg">
-        <div className="text-yellow-600 text-4xl mb-4">☀️</div>
-        <h3 className="text-xl font-semibold mb-3">Solar Thermal Systems</h3>
-        <p className="text-gray-700 mb-4">Harness solar energy for hot water heating and reduce your energy bills.</p>
-        <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Solar hot water systems</li>
-          <li>• Thermal collectors</li>
-          <li>• System integration</li>
-          <li>• Maintenance & monitoring</li>
-        </ul>
-        <div className="mt-4 text-yellow-600 font-semibold">Starting at $4,500</div>
-      </div>
-
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-green-500 transition duration-300 shadow-lg">
-        <div className="text-green-600 text-4xl mb-4">🌿</div>
-        <h3 className="text-xl font-semibold mb-3">Renewable Energy Solutions</h3>
-        <p className="text-gray-700 mb-4">Complete renewable energy systems for sustainable home energy.</p>
-        <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Energy assessments</li>
-          <li>• System design</li>
-          <li>• Installation & commissioning</li>
-          <li>• Performance monitoring</li>
-        </ul>
-        <div className="mt-4 text-green-600 font-semibold">Contact for quote</div>
+        <div className="mt-4 text-blue-600 font-semibold">Starting at £60</div>
       </div>
 
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
         <div className="text-blue-600 text-4xl mb-4">💧</div>
-        <h3 className="text-xl font-semibold mb-3">Leak Detection & Repair</h3>
-        <p className="text-gray-700 mb-4">Advanced leak detection technology to find and fix hidden water leaks.</p>
+        <h3 className="text-xl font-semibold mb-3">Leak Repairs</h3>
+        <p className="text-gray-700 mb-4">Fast and reliable leak detection and repair services to prevent water damage.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Electronic leak detection</li>
-          <li>• Pipe camera inspection</li>
-          <li>• Non-invasive methods</li>
+          <li>• Pipe leak repairs</li>
+          <li>• Joint replacements</li>
+          <li>• Emergency leak fixes</li>
+          <li>• Water damage prevention</li>
+        </ul>
+        <div className="mt-4 text-blue-600 font-semibold">Starting at £120</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">🌡️</div>
+        <h3 className="text-xl font-semibold mb-3">Air Source Heat Pump</h3>
+        <p className="text-gray-700 mb-4">Professional installation, servicing, and repair of air source heat pump systems.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Heat pump installation</li>
+          <li>• System servicing</li>
+          <li>• Repairs & maintenance</li>
+          <li>• Performance optimization</li>
+        </ul>
+        <div className="mt-4 text-red-600 font-semibold">Starting at £6,000</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">🔥</div>
+        <h3 className="text-xl font-semibold mb-3">Natural Gas Services</h3>
+        <p className="text-gray-700 mb-4">Complete natural gas installation, servicing, and repair services.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Gas appliance installation</li>
+          <li>• Gas safety checks</li>
+          <li>• Boiler servicing</li>
+          <li>• Gas leak repairs</li>
+        </ul>
+        <div className="mt-4 text-red-600 font-semibold">Starting at £200</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">⛽</div>
+        <h3 className="text-xl font-semibold mb-3">LPG Services</h3>
+        <p className="text-gray-700 mb-4">Professional LPG installation, servicing, and repair for all applications.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• LPG appliance installation</li>
+          <li>• Tank installation</li>
+          <li>• System servicing</li>
+          <li>• Safety inspections</li>
+        </ul>
+        <div className="mt-4 text-red-600 font-semibold">Starting at £250</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">🛢️</div>
+        <h3 className="text-xl font-semibold mb-3">Oil Services</h3>
+        <p className="text-gray-700 mb-4">Complete oil heating system installation, servicing, and repair services.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Oil boiler installation</li>
+          <li>• Tank installation</li>
+          <li>• Annual servicing</li>
           <li>• Emergency repairs</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $250</div>
+        <div className="mt-4 text-red-600 font-semibold">Starting at £300</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">⚡</div>
+        <h3 className="text-xl font-semibold mb-3">System Upgrades</h3>
+        <p className="text-gray-700 mb-4">Upgrade your heating and plumbing systems for improved efficiency and performance.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Central heating upgrades</li>
+          <li>• Smart thermostat installation</li>
+          <li>• Energy efficiency improvements</li>
+          <li>• System optimization</li>
+        </ul>
+        <div className="mt-4 text-red-600 font-semibold">Contact for quote</div>
       </div>
     </div>
 
@@ -156,10 +182,10 @@ const ServicesPage = () => (
       <p className="text-lg mb-6">Don&apos;t wait - call now for fast, professional plumbing, heating, and renewable energy services!</p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a 
-          href="tel:123-456-7890" 
+          href="tel:07907122798" 
           className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block"
         >
-          Call (123) 456-7890
+          Call 07907 122798
         </a>
         <a 
           href="/contact" 

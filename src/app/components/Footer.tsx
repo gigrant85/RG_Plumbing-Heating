@@ -11,11 +11,11 @@ const Footer = () => (
           </h3>
           <p className="text-gray-300 mb-4">Your trusted partner for reliable plumbing, heating, and renewable energy services. Available 24/7 for emergencies.</p>
           <div className="space-y-2">
-            <a href="tel:123-456-7890" className="block text-blue-400 hover:text-blue-300 font-semibold">
-              📞 (123) 456-7890
+            <a href="tel:07907122798" className="block text-blue-400 hover:text-blue-300 font-semibold">
+              📞 07907 122798
             </a>
-            <a href="mailto:contact@rgplumbingheating.com" className="block text-blue-400 hover:text-blue-300">
-              ✉️ contact@rgplumbingheating.com
+            <a href="mailto:rgphr@hotmail.com" className="block text-blue-400 hover:text-blue-300">
+              ✉️ rgphr@hotmail.com
             </a>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Footer = () => (
           <h4 className="text-lg font-semibold mb-4 text-red-500">Emergency Service</h4>
           <p className="text-gray-300 mb-4">Available 24/7 for urgent plumbing and heating issues. We typically arrive within 2 hours.</p>
           <a 
-            href="tel:123-456-7890" 
+            href="tel:07907122798" 
             className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg font-semibold transition duration-300 inline-block shadow-lg"
           >
             Emergency Line
@@ -55,7 +55,7 @@ const Footer = () => (
       <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
         <p className="text-gray-300">&copy; 2025 <span className="text-blue-400">RG</span> Plumbing Heating & Renewables. All rights reserved.</p>
         <div className="text-gray-300 text-sm mt-4 md:mt-0">
-          Licensed • Bonded • Insured
+          <span className="text-yellow-400 font-semibold">Gas Safe Registered</span> • <span className="text-red-400 font-semibold">G1 Grant Accredited Installer</span>
         </div>
       </div>
     </div>

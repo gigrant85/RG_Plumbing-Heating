@@ -120,8 +120,8 @@ const ContactPage = () => (
             <div>
               <h3 className="font-semibold text-lg">Phone</h3>
               <p className="text-gray-700">24/7 Emergency Service</p>
-              <a href="tel:123-456-7890" className="text-blue-600 hover:underline text-lg font-semibold">
-                (123) 456-7890
+              <a href="tel:07907122798" className="text-blue-600 hover:underline text-lg font-semibold">
+                07907 122798
               </a>
             </div>
           </div>
@@ -131,8 +131,8 @@ const ContactPage = () => (
             <div>
               <h3 className="font-semibold text-lg">Email</h3>
               <p className="text-gray-700">For quotes and general inquiries</p>
-              <a href="mailto:contact@rgplumbingheating.com" className="text-blue-600 hover:underline">
-                contact@rgplumbingheating.com
+              <a href="mailto:rgphr@hotmail.com" className="text-blue-600 hover:underline">
+                rgphr@hotmail.com
               </a>
             </div>
           </div>
@@ -172,10 +172,10 @@ const ContactPage = () => (
             <li>• No hot water</li>
           </ul>
           <a 
-            href="tel:123-456-7890" 
+            href="tel:07907122798" 
             className="block text-center bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300"
           >
-            Emergency: (123) 456-7890
+            Emergency: 07907 122798
           </a>
         </div>
       </div>
