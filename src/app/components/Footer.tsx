@@ -6,14 +6,14 @@ const Footer = () => (
     <div className="container mx-auto">
       <div className="grid md:grid-cols-4 gap-8 mb-8">
         <div>
-          <h3 className="text-xl font-bold mb-4">🔧 Awesome Plumbing</h3>
-          <p className="text-gray-300 mb-4">Your trusted partner for reliable, professional plumbing services. Available 24/7 for emergencies.</p>
+          <h3 className="text-xl font-bold mb-4">RG Plumbing Heating & Renewables</h3>
+          <p className="text-gray-300 mb-4">Your trusted partner for reliable plumbing, heating, and renewable energy services. Available 24/7 for emergencies.</p>
           <div className="space-y-2">
             <a href="tel:123-456-7890" className="block text-blue-400 hover:text-blue-300 font-semibold">
               📞 (123) 456-7890
             </a>
-            <a href="mailto:contact@awesomeplumbing.com" className="block text-blue-400 hover:text-blue-300">
-              ✉️ contact@awesomeplumbing.com
+            <a href="mailto:contact@rgplumbingheating.com" className="block text-blue-400 hover:text-blue-300">
+              ✉️ contact@rgplumbingheating.com
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Footer = () => (
       </div>
       
       <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
-        <p className="text-gray-300">&copy; 2025 Awesome Plumbing. All rights reserved.</p>
+        <p className="text-gray-300">&copy; 2025 RG Plumbing Heating & Renewables. All rights reserved.</p>
         <div className="text-gray-300 text-sm mt-4 md:mt-0">
           Licensed • Bonded • Insured
         </div>

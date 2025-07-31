@@ -2,22 +2,22 @@
 const AboutPage = () => (
   <div className="max-w-4xl mx-auto">
     <div className="text-center mb-12">
-      <h1 className="text-4xl font-bold mb-6 text-blue-600">About Awesome Plumbing</h1>
-      <p className="text-xl text-gray-700">Your trusted plumbing partner for over 20 years</p>
+      <h1 className="text-4xl font-bold mb-6 text-blue-700">About RG Plumbing Heating & Renewables</h1>
+      <p className="text-xl text-gray-700">Your trusted partner for plumbing, heating, and renewable energy solutions</p>
     </div>
 
     <div className="grid md:grid-cols-2 gap-12 mb-12">
       <div>
         <h2 className="text-2xl font-semibold mb-4 text-blue-600">Our Story</h2>
         <p className="text-gray-700 mb-4">
-          Founded in 2005, Awesome Plumbing has been serving the community with reliable, 
-          professional plumbing services. What started as a small family business has grown 
-          into the area&apos;s most trusted plumbing company.
+          Founded with a vision to provide comprehensive home comfort solutions, RG Plumbing Heating & Renewables 
+          has been serving the community with reliable, professional services. What started as a small family business 
+          has grown into the area&apos;s most trusted provider of plumbing, heating, and renewable energy solutions.
         </p>
         <p className="text-gray-700">
           We pride ourselves on honest work, fair pricing, and exceptional customer service. 
-          Our team of certified plumbers brings decades of combined experience to every job, 
-          big or small.
+          Our team of certified engineers and technicians brings decades of combined experience to every job, 
+          from emergency repairs to complete renewable energy installations.
         </p>
       </div>
       <div>
@@ -67,7 +67,7 @@ const AboutPage = () => (
 
     <div className="text-center bg-blue-600 text-white p-8 rounded-lg">
       <h2 className="text-2xl font-semibold mb-4">Ready to Experience the Difference?</h2>
-      <p className="text-lg mb-6">Join thousands of satisfied customers who trust Awesome Plumbing</p>
+      <p className="text-lg mb-6">Join thousands of satisfied customers who trust RG for all their home comfort needs</p>
       <a 
         href="tel:123-456-7890" 
         className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block"

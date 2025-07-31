@@ -3,7 +3,7 @@ const ContactPage = () => (
   <div className="max-w-6xl mx-auto">
     <div className="text-center mb-12">
       <h1 className="text-4xl font-bold mb-6 text-blue-600">Contact Us</h1>
-      <p className="text-xl text-gray-700">Get in touch for fast, reliable plumbing service</p>
+      <p className="text-xl text-gray-700">Get in touch for fast, reliable plumbing, heating, and renewable energy services</p>
     </div>
 
     <div className="grid lg:grid-cols-2 gap-12 mb-12">
@@ -78,11 +78,12 @@ const ContactPage = () => (
             >
               <option value="">Select a service</option>
               <option value="emergency">Emergency Repair</option>
+              <option value="boiler">Boiler Installation/Repair</option>
+              <option value="heating">Central Heating System</option>
+              <option value="heat-pump">Heat Pump Installation</option>
               <option value="drain-cleaning">Drain Cleaning</option>
-              <option value="water-heater">Water Heater Service</option>
-              <option value="fixture-installation">Fixture Installation</option>
-              <option value="repiping">Whole House Repiping</option>
-              <option value="leak-detection">Leak Detection</option>
+              <option value="solar">Solar Thermal System</option>
+              <option value="renewables">Renewable Energy</option>
               <option value="other">Other</option>
             </select>
           </div>
@@ -97,7 +98,7 @@ const ContactPage = () => (
               required
               rows={4}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Please describe your plumbing issue or service needs..."
+              placeholder="Please describe your plumbing, heating, or renewable energy service needs..."
             />
           </div>
 
@@ -130,8 +131,8 @@ const ContactPage = () => (
             <div>
               <h3 className="font-semibold text-lg">Email</h3>
               <p className="text-gray-700">For quotes and general inquiries</p>
-              <a href="mailto:contact@awesomeplumbing.com" className="text-blue-600 hover:underline">
-                contact@awesomeplumbing.com
+              <a href="mailto:contact@rgplumbingheating.com" className="text-blue-600 hover:underline">
+                contact@rgplumbingheating.com
               </a>
             </div>
           </div>
@@ -181,7 +182,7 @@ const ContactPage = () => (
     </div>
 
     <div className="bg-gray-100 p-8 rounded-lg text-center">
-      <h2 className="text-2xl font-semibold mb-4 text-blue-600">Why Choose Awesome Plumbing?</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-blue-600">Why Choose RG Plumbing Heating & Renewables?</h2>
       <div className="grid md:grid-cols-4 gap-6">
         <div>
           <div className="text-blue-600 text-3xl mb-2">⚡</div>

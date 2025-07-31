@@ -1,10 +1,10 @@
 const HomePage = () => (
   <div>
     {/* Hero Section */}
-    <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4 rounded-lg mb-12">
+    <div className="gradient-hero text-white py-16 px-4 rounded-lg mb-12">
       <div className="text-center max-w-4xl mx-auto">
-        <h1 className="text-5xl font-bold mb-6">Welcome to Awesome Plumbing</h1>
-        <p className="text-xl mb-8">Your trusted partner for all plumbing needs. We offer reliable, fast, and affordable services with 24/7 emergency availability.</p>
+        <h1 className="text-5xl font-bold mb-6">Welcome to RG Plumbing Heating & Renewables</h1>
+        <p className="text-xl mb-8">Your trusted partner for plumbing, heating, and renewable energy solutions. We offer reliable, fast, and affordable services with 24/7 emergency availability.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
             href="tel:123-456-7890" 
@@ -24,7 +24,7 @@ const HomePage = () => (
 
     {/* Services Highlights */}
     <div className="text-center mb-12">
-      <h2 className="text-3xl font-bold mb-8 text-blue-600">Why Choose Awesome Plumbing?</h2>
+      <h2 className="text-3xl font-bold mb-8 text-blue-700">Why Choose RG Plumbing Heating & Renewables?</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white border-2 border-gray-200 p-6 rounded-lg hover:border-blue-500 transition duration-300 shadow-lg">
           <div className="text-blue-600 text-5xl mb-4">🚨</div>
@@ -69,14 +69,14 @@ const HomePage = () => (
     {/* Service Areas */}
     <div className="grid md:grid-cols-2 gap-12 mb-12">
       <div>
-        <h2 className="text-2xl font-semibold mb-4 text-blue-600">Our Services Include:</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-blue-700">Our Services Include:</h2>
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Emergency plumbing repairs</li>
+          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Boiler installation & repair</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Central heating systems</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Heat pump installation</li>
           <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Drain cleaning & unclogging</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Water heater installation & repair</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Fixture installation & replacement</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Leak detection & repair</li>
-          <li className="flex items-center"><span className="text-blue-600 mr-2">✓</span> Whole house repiping</li>
+          <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Solar thermal systems</li>
         </ul>
         <a href="/services" className="inline-block mt-4 text-blue-600 hover:underline font-semibold">
           View All Services →
@@ -102,7 +102,7 @@ const HomePage = () => (
     {/* Final CTA Section */}
     <div className="text-center bg-blue-600 text-white p-8 rounded-lg">
       <h2 className="text-3xl font-semibold mb-4">Ready to Get Started?</h2>
-      <p className="text-lg mb-6">Don&apos;t let plumbing problems ruin your day. Call Awesome Plumbing now!</p>
+      <p className="text-lg mb-6">Don&apos;t let plumbing, heating, or energy problems ruin your day. Call RG now!</p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a 
           href="tel:123-456-7890" 

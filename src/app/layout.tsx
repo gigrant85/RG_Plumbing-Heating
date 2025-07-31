@@ -7,20 +7,20 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Awesome Plumbing | 24/7 Emergency Plumbing Services",
-  description: "Professional plumbing services available 24/7. Expert technicians, upfront pricing, and 100% satisfaction guarantee. Emergency repairs, drain cleaning, water heaters, and more.",
-  keywords: "plumbing, emergency plumber, drain cleaning, water heater, leak repair, 24/7 plumbing, licensed plumber",
-  authors: [{ name: "Awesome Plumbing" }],
+  title: "RG Plumbing Heating & Renewables | Professional Services",
+  description: "Professional plumbing, heating, and renewable energy services. Expert technicians, upfront pricing, and 100% satisfaction guarantee. Emergency repairs, boiler installation, heat pumps, and more.",
+  keywords: "plumbing, heating, renewables, emergency plumber, boiler installation, heat pump, drain cleaning, water heater, leak repair, 24/7 plumbing, licensed plumber, renewable energy",
+  authors: [{ name: "RG Plumbing Heating & Renewables" }],
   openGraph: {
-    title: "Awesome Plumbing | 24/7 Emergency Plumbing Services",
-    description: "Professional plumbing services available 24/7. Expert technicians, upfront pricing, and 100% satisfaction guarantee.",
+    title: "RG Plumbing Heating & Renewables | Professional Services",
+    description: "Professional plumbing, heating, and renewable energy services. Expert technicians, upfront pricing, and 100% satisfaction guarantee.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Awesome Plumbing | 24/7 Emergency Plumbing Services",
-    description: "Professional plumbing services available 24/7. Expert technicians, upfront pricing, and 100% satisfaction guarantee.",
+    title: "RG Plumbing Heating & Renewables | Professional Services",
+    description: "Professional plumbing, heating, and renewable energy services. Expert technicians, upfront pricing, and 100% satisfaction guarantee.",
   },
   robots: {
     index: true,

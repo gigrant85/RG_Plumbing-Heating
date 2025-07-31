@@ -5,7 +5,7 @@ const Header = () => (
   <header className="bg-blue-600 text-white p-4 sticky top-0 z-50 shadow-lg">
     <div className="container mx-auto flex justify-between items-center">
       <Link href="/" className="text-2xl font-bold hover:text-blue-200 transition duration-300">
-        🔧 Awesome Plumbing
+        RG Plumbing Heating & Renewables
       </Link>
       <div className="flex items-center space-x-6">
         <nav className="hidden md:block">

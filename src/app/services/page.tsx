@@ -2,8 +2,8 @@
 const ServicesPage = () => (
   <div className="max-w-6xl mx-auto">
     <div className="text-center mb-12">
-      <h1 className="text-4xl font-bold mb-6 text-blue-600">Our Services</h1>
-      <p className="text-xl text-gray-700">Professional plumbing solutions for your home and business</p>
+      <h1 className="text-4xl font-bold mb-6 text-blue-700">Our Services</h1>
+      <p className="text-xl text-gray-700">Professional plumbing, heating, and renewable energy solutions for your home and business</p>
     </div>
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -33,17 +33,17 @@ const ServicesPage = () => (
         <div className="mt-4 text-blue-600 font-semibold">Starting at $120</div>
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
-        <div className="text-blue-600 text-4xl mb-4">🔥</div>
-        <h3 className="text-xl font-semibold mb-3">Water Heater Services</h3>
-        <p className="text-gray-700 mb-4">Installation, repair, and maintenance of all water heater types.</p>
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">🔥</div>
+        <h3 className="text-xl font-semibold mb-3">Boiler Installation & Repair</h3>
+        <p className="text-gray-700 mb-4">Expert installation, repair, and maintenance of all boiler types for reliable heating.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Tank water heaters</li>
-          <li>• Tankless systems</li>
-          <li>• Repairs & maintenance</li>
-          <li>• Energy-efficient upgrades</li>
+          <li>• Combi boilers</li>
+          <li>• System boilers</li>
+          <li>• Regular boilers</li>
+          <li>• Emergency repairs</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $200</div>
+        <div className="mt-4 text-red-600 font-semibold">Starting at $2,500</div>
       </div>
 
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
@@ -59,28 +59,67 @@ const ServicesPage = () => (
         <div className="mt-4 text-blue-600 font-semibold">Starting at $180</div>
       </div>
 
-      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
-        <div className="text-blue-600 text-4xl mb-4">🏠</div>
-        <h3 className="text-xl font-semibold mb-3">Whole House Repiping</h3>
-        <p className="text-gray-700 mb-4">Complete pipe replacement for older homes with outdated plumbing.</p>
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">♨️</div>
+        <h3 className="text-xl font-semibold mb-3">Central Heating Systems</h3>
+        <p className="text-gray-700 mb-4">Complete central heating installation and maintenance for optimal home comfort.</p>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Copper repiping</li>
-          <li>• PEX installation</li>
-          <li>• Slab leak repair</li>
-          <li>• Pipe inspection</li>
+          <li>• Radiator installation</li>
+          <li>• Underfloor heating</li>
+          <li>• Thermostatic controls</li>
+          <li>• System maintenance</li>
         </ul>
-        <div className="mt-4 text-blue-600 font-semibold">Starting at $3,500</div>
+        <div className="mt-4 text-red-600 font-semibold">Starting at $3,000</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-red-500 transition duration-300 shadow-lg">
+        <div className="text-red-600 text-4xl mb-4">🌡️</div>
+        <h3 className="text-xl font-semibold mb-3">Heat Pump Installation</h3>
+        <p className="text-gray-700 mb-4">Energy-efficient heat pump systems for year-round comfort and reduced energy bills.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Air source heat pumps</li>
+          <li>• Ground source heat pumps</li>
+          <li>• Hybrid systems</li>
+          <li>• Maintenance & repairs</li>
+        </ul>
+        <div className="mt-4 text-red-600 font-semibold">Starting at $8,000</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-yellow-500 transition duration-300 shadow-lg">
+        <div className="text-yellow-600 text-4xl mb-4">☀️</div>
+        <h3 className="text-xl font-semibold mb-3">Solar Thermal Systems</h3>
+        <p className="text-gray-700 mb-4">Harness solar energy for hot water heating and reduce your energy bills.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Solar hot water systems</li>
+          <li>• Thermal collectors</li>
+          <li>• System integration</li>
+          <li>• Maintenance & monitoring</li>
+        </ul>
+        <div className="mt-4 text-yellow-600 font-semibold">Starting at $4,500</div>
+      </div>
+
+      <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-green-500 transition duration-300 shadow-lg">
+        <div className="text-green-600 text-4xl mb-4">🌿</div>
+        <h3 className="text-xl font-semibold mb-3">Renewable Energy Solutions</h3>
+        <p className="text-gray-700 mb-4">Complete renewable energy systems for sustainable home energy.</p>
+        <ul className="text-sm text-gray-600 space-y-1">
+          <li>• Energy assessments</li>
+          <li>• System design</li>
+          <li>• Installation & commissioning</li>
+          <li>• Performance monitoring</li>
+        </ul>
+        <div className="mt-4 text-green-600 font-semibold">Contact for quote</div>
       </div>
 
       <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-500 transition duration-300 shadow-lg">
         <div className="text-blue-600 text-4xl mb-4">💧</div>
-        <h3 className="text-xl font-semibold mb-3">Leak Detection</h3>
-        <p className="text-gray-700 mb-4">Advanced leak detection technology to find hidden water leaks.</p>
+        <h3 className="text-xl font-semibold mb-3">Leak Detection & Repair</h3>
+        <p className="text-gray-700 mb-4">Advanced leak detection technology to find and fix hidden water leaks.</p>
         <ul className="text-sm text-gray-600 space-y-1">
           <li>• Electronic leak detection</li>
-          <li>• Slab leak location</li>
           <li>• Pipe camera inspection</li>
-          <li>• Water damage prevention</li>
+          <li>• Non-invasive methods</li>
+          <li>• Emergency repairs</li>
         </ul>
         <div className="mt-4 text-blue-600 font-semibold">Starting at $250</div>
       </div>
@@ -114,7 +153,7 @@ const ServicesPage = () => (
 
     <div className="text-center bg-blue-600 text-white p-8 rounded-lg">
       <h2 className="text-2xl font-semibold mb-4">Need Service Today?</h2>
-      <p className="text-lg mb-6">Don&apos;t wait - call now for fast, professional service!</p>
+      <p className="text-lg mb-6">Don&apos;t wait - call now for fast, professional plumbing, heating, and renewable energy services!</p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a 
           href="tel:123-456-7890" 
