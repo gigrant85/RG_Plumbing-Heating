@@ -1,11 +1,18 @@
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => (
-  <header className="gradient-rg text-white p-4 sticky top-0 z-50 shadow-lg">
+  <header className="bg-black text-white p-4 sticky top-0 z-50 shadow-lg">
     <div className="container mx-auto flex justify-between items-center">
-      <Link href="/" className="text-2xl font-bold hover:text-gray-200 transition duration-300">
-        <span className="text-blue-200">RG</span> <span className="text-white">Plumbing Heating & Renewables</span>
+      <Link href="/" className="flex items-center hover:opacity-90 transition duration-300">
+        <Image 
+          src="/rg-logo.svg" 
+          alt="RG Plumbing Heating & Renewables" 
+          width={160} 
+          height={80}
+          className="h-12 w-auto"
+        />
       </Link>
       <div className="flex items-center space-x-6">
         <nav className="hidden md:block">

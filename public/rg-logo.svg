@@ -1,0 +1,18 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- RG Letters -->
+  <g transform="translate(20, 20)">
+    <!-- R Letter -->
+    <path d="M0 0 L0 60 L25 60 L35 60 C40 60, 45 55, 45 50 L45 35 C45 30, 40 25, 35 25 L25 25 L45 0 Z M15 15 L15 45 L30 45 C32 45, 35 42, 35 40 L35 30 C35 28, 32 25, 30 25 L15 25 Z" 
+          fill="#1e40af" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- G Letter -->  
+    <path d="M55 0 C50 0, 45 5, 45 10 L45 50 C45 55, 50 60, 55 60 L85 60 C90 60, 95 55, 95 50 L95 35 L75 35 L75 45 L80 45 L80 50 C80 52, 78 55, 75 55 L60 55 C58 55, 55 52, 55 50 L55 10 C55 8, 58 5, 60 5 L75 5 C78 5, 80 8, 80 10 L95 10 C95 5, 90 0, 85 0 Z" 
+          fill="#dc2626" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="20" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">PLUMBING</text>
+  <text x="95" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">HEATING</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">&amp;</text>
+  <text x="35" y="118" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">RENEWABLE'S</text>
+</svg>
