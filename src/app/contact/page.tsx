@@ -185,17 +185,17 @@ const ContactPage = () => (
       <h2 className="text-2xl font-semibold mb-4 text-blue-600">Why Choose RG Plumbing Heating & Renewables?</h2>
       <div className="grid md:grid-cols-4 gap-6">
         <div>
-          <div className="text-blue-600 text-3xl mb-2">⚡</div>
+          <div className="text-blue-600 text-3xl mb-2">🚑</div>
           <h4 className="font-semibold">Fast Response</h4>
           <p className="text-sm text-gray-700">Usually arrive within 2 hours</p>
         </div>
         <div>
-          <div className="text-blue-600 text-3xl mb-2">💰</div>
+          <div className="text-blue-600 text-3xl mb-2">💵</div>
           <h4 className="font-semibold">Upfront Pricing</h4>
           <p className="text-sm text-gray-700">No hidden fees or surprises</p>
         </div>
         <div>
-          <div className="text-blue-600 text-3xl mb-2">🛡️</div>
+          <div className="text-blue-600 text-3xl mb-2">📃</div>
           <h4 className="font-semibold">Licensed & Insured</h4>
           <p className="text-sm text-gray-700">Fully bonded for your protection</p>
         </div>

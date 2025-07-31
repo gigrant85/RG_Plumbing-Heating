@@ -28,7 +28,7 @@ const ServicesPage = () => (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              🛁
+              🚿
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Bathroom Renovations</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Complete bathroom renovation services from design to installation with premium fixtures and finishes.</p>
@@ -48,7 +48,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              🔥
+              ♨️
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Hot Water Upgrades</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Upgrade your hot water system for improved efficiency and reliability.</p>
@@ -68,7 +68,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              🔧
+              🚰
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Outside Tap Installations</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Professional installation of outside taps for garden and external use.</p>
@@ -128,7 +128,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              💧
+              🔧
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Leak Repairs</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Fast and reliable leak detection and repair services to prevent water damage.</p>
@@ -148,7 +148,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              🌡️
+              ♨️
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-red-600 transition-colors">Air Source Heat Pump</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Professional installation, servicing, and repair of air source heat pump systems.</p>
@@ -188,7 +188,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              ⛽
+              🔥
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-red-600 transition-colors">LPG Services</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Professional LPG installation, servicing, and repair for all applications.</p>
@@ -208,7 +208,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              🛢️
+              ⛽
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-red-600 transition-colors">Oil Services</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Complete oil heating system installation, servicing, and repair services.</p>
@@ -228,7 +228,7 @@ const ServicesPage = () => (
 
           <div className="card-modern p-8 group">
             <div className="w-16 h-16 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
-              ⚡
+              🔧
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-red-600 transition-colors">System Upgrades</h3>
             <p className="text-slate-600 mb-6 leading-relaxed">Upgrade your heating and plumbing systems for improved efficiency and performance.</p>
@@ -261,22 +261,22 @@ const ServicesPage = () => (
         
         <div className="grid md:grid-cols-4 gap-8">
           <div className="text-center group">
-            <div className="w-16 h-16 mx-auto mb-6 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">⚡</div>
+            <div className="w-16 h-16 mx-auto mb-6 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">🚑</div>
             <h4 className="text-lg font-bold mb-3 text-slate-800">Rapid Response</h4>
             <p className="text-slate-600">Same-day service available with 24/7 emergency support</p>
           </div>
           <div className="text-center group">
-            <div className="w-16 h-16 mx-auto mb-6 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">💰</div>
+            <div className="w-16 h-16 mx-auto mb-6 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">💵</div>
             <h4 className="text-lg font-bold mb-3 text-slate-800">Transparent Pricing</h4>
             <p className="text-slate-600">Clear upfront estimates with no hidden fees or surprises</p>
           </div>
           <div className="text-center group">
-            <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">🛡️</div>
+            <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">✓</div>
             <h4 className="text-lg font-bold mb-3 text-slate-800">Quality Guarantee</h4>
             <p className="text-slate-600">100% satisfaction guarantee on all work performed</p>
           </div>
           <div className="text-center group">
-            <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">👨‍🔧</div>
+            <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300">🏆</div>
             <h4 className="text-lg font-bold mb-3 text-slate-800">Expert Team</h4>
             <p className="text-slate-600">Licensed, certified, and continuously trained professionals</p>
           </div>

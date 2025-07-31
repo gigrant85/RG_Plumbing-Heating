@@ -49,7 +49,7 @@ const HomePage = () => (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           <div className="card-modern p-8 text-center group">
             <div className="w-20 h-20 mx-auto mb-6 gradient-modern-red rounded-2xl flex items-center justify-center text-white text-3xl animate-float">
-              🚨
+              🚑
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">24/7 Emergency Response</h3>
             <p className="text-slate-600 leading-relaxed">Round-the-clock emergency service with typical 2-hour response times. No plumbing crisis is too big or small.</p>
@@ -57,7 +57,7 @@ const HomePage = () => (
           
           <div className="card-modern p-8 text-center group">
             <div className="w-20 h-20 mx-auto mb-6 gradient-modern-blue rounded-2xl flex items-center justify-center text-white text-3xl animate-float" style={{animationDelay: '0.5s'}}>
-              🏆
+              📃
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Certified Professionals</h3>
             <p className="text-slate-600 leading-relaxed">Gas Safe registered engineers with full accreditation. Every technician is licensed, bonded, and continuously trained.</p>
@@ -65,7 +65,7 @@ const HomePage = () => (
           
           <div className="card-modern p-8 text-center group">
             <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-white text-3xl animate-float" style={{animationDelay: '1s'}}>
-              💎
+              💵
             </div>
             <h3 className="text-xl font-bold mb-4 text-slate-800 group-hover:text-blue-600 transition-colors">Transparent Pricing</h3>
             <p className="text-slate-600 leading-relaxed">Clear, upfront estimates with no hidden fees. You&apos;ll know exactly what you&apos;re paying before we start work.</p>
@@ -149,19 +149,19 @@ const HomePage = () => (
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3 p-4 rounded-xl bg-blue-50 border border-blue-100">
-                <div className="w-10 h-10 gradient-modern-blue rounded-lg flex items-center justify-center text-white text-sm">🔧</div>
+                <div className="w-10 h-10 gradient-modern-blue rounded-lg flex items-center justify-center text-white text-sm">🚿</div>
                 <span className="font-semibold text-slate-800">Bathroom Renovations</span>
               </div>
               <div className="flex items-center space-x-3 p-4 rounded-xl bg-red-50 border border-red-100">
-                <div className="w-10 h-10 gradient-modern-red rounded-lg flex items-center justify-center text-white text-sm">🔥</div>
+                <div className="w-10 h-10 gradient-modern-red rounded-lg flex items-center justify-center text-white text-sm">♨️</div>
                 <span className="font-semibold text-slate-800">Heat Pump Systems</span>
               </div>
               <div className="flex items-center space-x-3 p-4 rounded-xl bg-blue-50 border border-blue-100">
-                <div className="w-10 h-10 gradient-modern-blue rounded-lg flex items-center justify-center text-white text-sm">💧</div>
+                <div className="w-10 h-10 gradient-modern-blue rounded-lg flex items-center justify-center text-white text-sm">♨️</div>
                 <span className="font-semibold text-slate-800">Hot Water Upgrades</span>
               </div>
               <div className="flex items-center space-x-3 p-4 rounded-xl bg-red-50 border border-red-100">
-                <div className="w-10 h-10 gradient-modern-red rounded-lg flex items-center justify-center text-white text-sm">⚡</div>
+                <div className="w-10 h-10 gradient-modern-red rounded-lg flex items-center justify-center text-white text-sm">🔥</div>
                 <span className="font-semibold text-slate-800">Gas & Oil Services</span>
               </div>
             </div>
@@ -176,21 +176,21 @@ const HomePage = () => (
             <h3 className="text-2xl font-bold mb-6 text-slate-800">Service Coverage</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 gradient-modern-blue rounded-full flex items-center justify-center text-white text-xs mt-1">📍</div>
+                <div className="w-6 h-6 gradient-modern-blue rounded-full flex items-center justify-center text-white text-xs mt-1">🗺️</div>
                 <div>
                   <h4 className="font-semibold text-slate-800">Greater Metropolitan Area</h4>
                   <p className="text-slate-600">Complete coverage within 50-mile radius</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 gradient-modern-red rounded-full flex items-center justify-center text-white text-xs mt-1">🏠</div>
+                <div className="w-6 h-6 gradient-modern-red rounded-full flex items-center justify-center text-white text-xs mt-1">🏢</div>
                 <div>
                   <h4 className="font-semibold text-slate-800">Residential & Commercial</h4>
                   <p className="text-slate-600">Homes, businesses, and new construction</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white text-xs mt-1">⚡</div>
+                <div className="w-6 h-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white text-xs mt-1">🚑</div>
                 <div>
                   <h4 className="font-semibold text-slate-800">24/7 Emergency Response</h4>
                   <p className="text-slate-600">Rapid response for urgent situations</p>
